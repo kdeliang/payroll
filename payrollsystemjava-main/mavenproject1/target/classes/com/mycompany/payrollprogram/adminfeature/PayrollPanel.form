@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f9" green="f5" red="f4" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="lblSubtitle" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="lblEmployeeCaption" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="txtEmployee" min="-2" pref="300" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="338" max="-2" attributes="0"/>
+          <Component id="lblPeriodCaption" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="338" max="-2" attributes="0"/>
+          <Component id="txtPeriod" min="-2" pref="300" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="652" max="-2" attributes="0"/>
+          <Component id="btnLoad" min="-2" pref="174" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="cardEarnings" pref="475" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          <Component id="cardDeductions" pref="475" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="cardSummary" pref="968" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="lblChecks" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="btnCalculate" min="-2" pref="160" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
+          <Component id="btnSaveDraft" min="-2" pref="174" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="382" max="-2" attributes="0"/>
+          <Component id="btnApprove" min="-2" pref="174" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="568" max="-2" attributes="0"/>
+          <Component id="btnViewPayslip" min="-2" pref="174" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          <Component id="lblNote" min="-2" max="-2" attributes="0"/>
+        </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+          <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+          <Component id="lblSubtitle" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+          <Component id="lblEmployeeCaption" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+          <Component id="txtEmployee" min="-2" pref="32" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+          <Component id="lblPeriodCaption" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+          <Component id="txtPeriod" min="-2" pref="32" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+          <Component id="btnLoad" min="-2" pref="32" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+          <Component id="cardEarnings" min="-2" pref="310" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+          <Component id="cardDeductions" min="-2" pref="310" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="486" max="-2" attributes="0"/>
+          <Component id="cardSummary" min="-2" pref="110" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="612" max="-2" attributes="0"/>
+          <Component id="lblChecks" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="636" max="-2" attributes="0"/>
+          <Component id="btnCalculate" min="-2" pref="32" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="635" max="-2" attributes="0"/>
+          <Component id="btnSaveDraft" min="-2" pref="34" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="635" max="-2" attributes="0"/>
+          <Component id="btnApprove" min="-2" pref="34" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="635" max="-2" attributes="0"/>
+          <Component id="btnViewPayslip" min="-2" pref="34" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <EmptySpace min="-2" pref="686" max="-2" attributes="0"/>
+          <Component id="lblNote" min="-2" max="-2" attributes="0"/>
+        </Group>
+        <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="23" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Payroll"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSubtitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="a4" green="91" red="8b" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calculate earnings and deductions, then review and approve."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmployeeCaption">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="11" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Employee"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmployee">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ana Mendoza · EMP-001"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+            <CompoundBorder>
+              <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                </LineBorder>
+              </Border>
+              <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+              </Border>
+            </CompoundBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPeriodCaption">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="11" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Payroll period"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPeriod">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="October 2026"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+            <CompoundBorder>
+              <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                </LineBorder>
+              </Border>
+              <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+              </Border>
+            </CompoundBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLoad">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Load employee"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLoadActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="cardEarnings">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblEarningsTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="ruleEarnings" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblBasicName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="txtBasicPay" min="-2" pref="170" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblHonorariumName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="txtHonorarium" min="-2" pref="170" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblAllowancesName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="txtAllowances" min="-2" pref="170" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblOvertimeName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="txtOvertime" min="-2" pref="170" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblEarningsNote" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Component id="lblEarningsTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="ruleEarnings" min="-2" pref="1" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <Component id="lblBasicName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+              <Component id="txtBasicPay" min="-2" pref="32" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+              <Component id="lblHonorariumName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+              <Component id="txtHonorarium" min="-2" pref="32" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+              <Component id="lblAllowancesName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+              <Component id="txtAllowances" min="-2" pref="32" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+              <Component id="lblOvertimeName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+              <Component id="txtOvertime" min="-2" pref="32" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="224" max="-2" attributes="0"/>
+              <Component id="lblEarningsNote" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblEarningsTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Earnings"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="ruleEarnings">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f2" green="ed" red="eb" type="rgb"/>
+            </Property>
+          </Properties>
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblBasicName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Basic monthly pay"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBasicPay">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="30000.00"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                <CompoundBorder>
+                  <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                  <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+                  </Border>
+                </CompoundBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblHonorariumName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Honorarium"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtHonorarium">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2000.00"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                <CompoundBorder>
+                  <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                  <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+                  </Border>
+                </CompoundBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAllowancesName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Allowances"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAllowances">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1500.00"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                <CompoundBorder>
+                  <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                  <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+                  </Border>
+                </CompoundBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOvertimeName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Overtime pay"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOvertime">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="426.14"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                <CompoundBorder>
+                  <Border PropertyName="outsideBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="eb" green="e3" red="e0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                  <Border PropertyName="insideBorder" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="5" left="8" right="8" top="5"/>
+                  </Border>
+                </CompoundBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEarningsNote">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="10" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a4" green="91" red="8b" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;OT from approved attendance records.&lt;br&gt;Working days: 22 · Hours per day: 8&lt;/html&gt;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardDeductions">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblDeductionsTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="ruleDeductions" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblSssName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblSssAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblPagIbigName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblPagIbigAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblPhilHealthName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblPhilHealthAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblTaxName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblTaxAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblAbsencesName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblAbsencesAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblTardinessName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblTardinessAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblLoansName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" alignment="1" attributes="0">
+              <Component id="lblLoansAmount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Component id="lblDeductionsTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="ruleDeductions" min="-2" pref="1" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+              <Component id="lblSssName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+              <Component id="lblSssAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              <Component id="lblPagIbigName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              <Component id="lblPagIbigAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+              <Component id="lblPhilHealthName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+              <Component id="lblPhilHealthAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+              <Component id="lblTaxName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+              <Component id="lblTaxAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+              <Component id="lblAbsencesName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+              <Component id="lblAbsencesAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
+              <Component id="lblTardinessName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
+              <Component id="lblTardinessAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+              <Component id="lblLoansName" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+              <Component id="lblLoansAmount" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblDeductionsTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Deductions"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="ruleDeductions">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f2" green="ed" red="eb" type="rgb"/>
+            </Property>
+          </Properties>
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblSssName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SSS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSssAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1,500.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPagIbigName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pag-IBIG"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPagIbigAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="200.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPhilHealthName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PhilHealth"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPhilHealthAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="750.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTaxName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Withholding tax"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTaxAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1,471.98"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAbsencesName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Absences"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAbsencesAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="0.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTardinessName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tardiness"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTardinessAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="42.61"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLoansName">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Loans"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLoansAmount">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="11" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1,000.00"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="cardSummary">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblSummaryTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="ruleSummary" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblGrossCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="lblGrossValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="330" max="-2" attributes="0"/>
+              <Component id="lblDeductionsCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="330" max="-2" attributes="0"/>
+              <Component id="lblDeductionsValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="645" max="-2" attributes="0"/>
+              <Component id="lblNetCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="645" max="-2" attributes="0"/>
+              <Component id="lblNetValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Component id="lblSummaryTitle" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="ruleSummary" min="-2" pref="1" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Component id="lblGrossCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              <Component id="lblGrossValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Component id="lblDeductionsCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              <Component id="lblDeductionsValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Component id="lblNetCaption" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              <Component id="lblNetValue" min="-2" max="-2" attributes="0"/>
+            </Group>
+            <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblSummaryTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Payroll summary"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="ruleSummary">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f2" green="ed" red="eb" type="rgb"/>
+            </Property>
+          </Properties>
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblGrossCaption">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gross"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblGrossValue">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="17" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="₱33,926.14"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDeductionsCaption">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Deductions"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDeductionsValue">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="17" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="₱4,964.59"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNetCaption">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3e" green="30" red="2d" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Net"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNetValue">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="17" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="eb" green="4f" red="75" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="₱28,961.55"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblChecks">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="11" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="a4" green="91" red="8b" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Checks: Positive net pay · Status: Draft"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCalculate">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="eb" green="4f" red="75" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSaveDraft">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save draft"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveDraftActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnApprove">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Approve payroll"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnApproveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnViewPayslip">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="3e" green="30" red="2d" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="View payslip"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="f0" green="ea" red="e8" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnViewPayslipActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNote">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="a4" green="91" red="8b" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sample values · Verify statutory contribution and tax rules before production use."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
